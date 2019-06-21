@@ -1,0 +1,12 @@
+[Fri Jun 21 19:17:54.871893 2019] [ssl:info] [pid 21] AH01887: Init: Initializing (virtual) servers for SSL
+[Fri Jun 21 19:17:54.874114 2019] [ssl:info] [pid 21] AH01914: Configuring server localhost:443 for SSL protocol
+[Fri Jun 21 19:17:54.874237 2019] [ssl:debug] [pid 21] ssl_engine_init.c(413): AH01893: Configuring TLS extension handling
+[Fri Jun 21 19:17:54.875085 2019] [ssl:debug] [pid 21] ssl_util_ssl.c(443): AH02412: [localhost:443] Cert does not match for name 'localhost' [subject: CN=21861302b11e / issuer: CN=21861302b11e / serial: 8DA02B6A53DD3F8D / notbefore: Jun 21 16:18:23 2019 GMT / notafter: Jun 18 16:18:23 2029 GMT]
+[Fri Jun 21 19:17:54.875097 2019] [ssl:warn] [pid 21] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 21 19:17:54.875099 2019] [ssl:info] [pid 21] AH02568: Certificate and private key localhost:443:0 configured from /etc/ssl/certs/ssl-cert-snakeoil.pem and /etc/ssl/private/ssl-cert-snakeoil.key
+[Fri Jun 21 19:17:54.875145 2019] [ssl:info] [pid 21] AH01914: Configuring server localhost:443 for SSL protocol
+[Fri Jun 21 19:17:54.875219 2019] [ssl:debug] [pid 21] ssl_engine_init.c(413): AH01893: Configuring TLS extension handling
+[Fri Jun 21 19:17:54.875311 2019] [ssl:debug] [pid 21] ssl_util_ssl.c(443): AH02412: [localhost:443] Cert does not match for name 'localhost' [subject: CN=21861302b11e / issuer: CN=21861302b11e / serial: 8DA02B6A53DD3F8D / notbefore: Jun 21 16:18:23 2019 GMT / notafter: Jun 18 16:18:23 2029 GMT]
+[Fri Jun 21 19:17:54.875315 2019] [ssl:warn] [pid 21] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 21 19:17:54.875317 2019] [ssl:info] [pid 21] AH02568: Certificate and private key localhost:443:0 configured from /etc/ssl/certs/ssl-cert-snakeoil.pem and /etc/ssl/private/ssl-cert-snakeoil.key
+[Fri Jun 21 19:17:54.875350 2019] [ssl:info] [pid 21] AH01876: mod_ssl/2.4.25 compiled against Server: Apache/2.4.25, Library: OpenSSL/1.0.2q

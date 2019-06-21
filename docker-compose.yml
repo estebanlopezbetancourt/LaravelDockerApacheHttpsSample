@@ -1,0 +1,15 @@
+version: '3'
+services:
+  app:
+    volumes:
+      - ./myfirstapp:/code
+      - ./config:/config
+      - ./logs:/apachelogs
+    working_dir: /code
+    build: .
+    stdin_open: true
+    tty: true
+    ports:
+    - "1443:443"
+    - "80:80"
+   
